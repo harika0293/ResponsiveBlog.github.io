@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Source+Serif+4:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+    
+  font-family: "Libre Baskerville", serif;
+  /* height: 74px; */
+  background-color: rgb(185, 240, 181);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  font-size: 22px;
+  font-weight: bolder;
+  
+  display: flex;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 18px;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 12px;
+  transition: all 0.3s ease-in;
+  font-family: "Libre Baskerville", serif;
+  font-size: 19px;
+}
+
+.nav-left ul li a:hover {
+   font-weight: bolder;
+    color: rgb(224, 165, 147);
+}
+        
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Libre Baskerville", serif;
+  transition: all 0.1s ease-in;
+}
+.content-left {
+  font-family: "Libre Baskerville", serif;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+.content-left h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+  padding: 9px;
+}
+.content-left p {
+  font-family: "Libre Baskerville", serif;
+  font-size: 14px;
+}
+.content-right img {
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 40px;
+}
+.content-right {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  height: 100%;
+  /* background-color: rgb(146, 146, 219); */
+  display: flex;
+   padding: 9px;
+   line-height: 26px;
+  position: relative;
+}
+
+.home-articles{
+  
+    padding-top: 10px;
+    background-color: rgb(185, 240, 181);
+    padding: 18px;
+    margin-top: 23px;
+    line-height: 28px;
+    position: relative;
+}
+.year-box{
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    font-size: 18px;
+    right: 10px;
+    top: 100px;
+}
+.year-box div{
+    margin: 10px 0px;
+}
+
+
+.home-articles h2{
+    padding: 10px;
+    
+
+}
+.home-article{
+    display: flex;
+    padding: 30px;
+    
+}
+.home-article img{
+    width: 300px;
+    display: flex;
+    border-radius: 40px;
+    
+}
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-left img{
+    padding: 30px;
+    cursor: pointer;
+}
+.footer {
+  height: 50px;
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Libre Baskerville", serif;
+  font-size: 16px;
+  background-color: rgb(224, 165, 147);
+  color: white;
+  
+
+}
